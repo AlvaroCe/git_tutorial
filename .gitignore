@@ -9,3 +9,6 @@ Thumbs.db
 
 # ignore logs
 *.log
+
+# ignore pytest_cache
+.pytest_cache/
