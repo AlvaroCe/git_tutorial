@@ -38,3 +38,14 @@ def division_example(argument_1, argument_2):
     division = argument_1 / (1.0 * argument_2)
     division = np.round(division, decimals=2)
     return division
+
+def _times_example(argument_1, argument_2):
+    """
+    [summary]
+
+    :param float argument_1: argument one
+    :param float argument_2: argument two
+    """
+    _times = np.round(argument_1 * argument_2,
+                      decimals=2)
+    return _times
