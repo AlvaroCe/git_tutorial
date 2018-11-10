@@ -50,6 +50,7 @@ def _times_example(argument_1, argument_2):
                       decimals=2)
     return _times
 
+<<<<<<< HEAD
 def _pow_example(argument_1, argument_2):
     """
     [summary]
@@ -62,3 +63,10 @@ def _pow_example(argument_1, argument_2):
     _pow = np.round(argument_1**argument_2,
                     decimals=2)
     return _pow
+=======
+def _print_info():
+    """
+    """
+    print("New function inserted from GitHub online editor")
+
+>>>>>>> 11935e23cf0be2f2ca86422f8b72fc5b05ec3a95
