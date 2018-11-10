@@ -28,6 +28,7 @@ def substract_example(argument_1, argument_2):
     _substract = np.round(_substract, decimals=2)
     return _substract
 
+
 def division_example(argument_1, argument_2):
     """
     Performs the division of two elements.
@@ -39,30 +40,42 @@ def division_example(argument_1, argument_2):
     division = np.round(division, decimals=2)
     return division
 
+
 def _times_example(argument_1, argument_2):
     """
     [summary]
 
-    :param float argument_1: argument one
-    :param float argument_2: argument two
+        :param float argument_1: argument one
+        :param float argument_2: argument two
     """
     _times = np.round(argument_1 * argument_2,
                       decimals=2)
     return _times
 
+
 def _pow_example(argument_1, argument_2):
     """
     [summary]
 
-    :param argument_1: [description]
-    :type argument_1: [type]
-    :param argument_2: [description]
-    :type argument_2: [type]
+        :param argument_1: [description]
+        :param argument_2: [description]
     """
     _pow = np.round(argument_1**argument_2,
                     decimals=2)
     return _pow
+
+
 def _print_info():
     """
+    Print some info here
+
     """
     print("New function inserted from GitHub online editor")
+
+
+def _print_error():
+    """
+    Print some info here
+
+    """
+    print("Error message")
