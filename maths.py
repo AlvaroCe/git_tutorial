@@ -49,3 +49,16 @@ def _times_example(argument_1, argument_2):
     _times = np.round(argument_1 * argument_2,
                       decimals=2)
     return _times
+
+def _pow_example(argument_1, argument_2):
+    """
+    [summary]
+
+    :param argument_1: [description]
+    :type argument_1: [type]
+    :param argument_2: [description]
+    :type argument_2: [type]
+    """
+    _pow = np.round(argument_1**argument_2,
+                    decimals=2)
+    return _pow
