@@ -52,16 +52,16 @@ def _times_example(argument_1, argument_2):
 
 def _pow_example(argument_1, argument_2):
     """
-    [summary]
+    Pow example
 
-    :param argument_1: [description]
-    :type argument_1: [type]
-    :param argument_2: [description]
-    :type argument_2: [type]
+    :param argument_1: argument one
+    :param argument_2: argument two
     """
     _pow = np.round(argument_1**argument_2,
                     decimals=2)
     return _pow
+
+
 def _print_info():
     """
     """
