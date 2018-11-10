@@ -49,3 +49,9 @@ def _times_example(argument_1, argument_2):
     _times = np.round(argument_1 * argument_2,
                       decimals=2)
     return _times
+
+def _print_info():
+    """
+    """
+    print("New function inserted from GitHub online editor")
+
