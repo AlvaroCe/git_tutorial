@@ -27,3 +27,16 @@ def substract_example(argument_1, argument_2):
     _substract = argument_1 - argument_2
     _substract = np.round(_substract, decimals=2)
     return _substract
+
+def division_example(argument_1, argument_2):
+    """
+    Performs the division of two elements.
+
+    :param float argument_1: argument one
+    :param float argument_2: argument two
+    :returns: The division
+    """
+    _division = argument_1 / (1.0 * argument_2)
+    _division = np.round(_division, decimals=2)
+    return _division
+
